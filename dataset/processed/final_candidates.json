@@ -1,0 +1,190 @@
+{
+  "Solyc05g006640.4": {
+    "logfoldchanges": 1.772674322128296,
+    "pvals_adj": 4.101606207681812e-15,
+    "description": "Phospholipid-transporting ATPase (AHRD V3.3 *** A0A1U8EVI0_CAPAN)",
+    "n_cell_types": 2,
+    "cell_types": [
+      "Epidermal",
+      "Mesophyll"
+    ],
+    "selected_as": [
+      "mesophyll"
+    ]
+  },
+  "Solyc02g082450.3": {
+    "logfoldchanges": 2.1637823581695557,
+    "pvals_adj": 3.9504066227738746e-08,
+    "description": "Auxin efflux carrier (AHRD V3.3 *** A0A200PYL2_9MAGN)",
+    "n_cell_types": 2,
+    "cell_types": [
+      "Epidermal",
+      "Mesophyll"
+    ],
+    "selected_as": [
+      "mesophyll"
+    ]
+  },
+  "Solyc02g092450.3": {
+    "logfoldchanges": 3.237722635269165,
+    "pvals_adj": 0.017879196339190773,
+    "description": "Calcium-transporting ATPase (AHRD V3.3 *** A0A2G2XH12_CAPBA)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Mesophyll"
+    ],
+    "selected_as": [
+      "mesophyll"
+    ]
+  },
+  "Solyc05g006020.3": {
+    "logfoldchanges": 7.455045223236084,
+    "pvals_adj": 0.04176398937787585,
+    "description": "Nucleobase-ascorbate transporter 8 (AHRD V3.3 *** A0A1U8EN63_CAPAN)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Mesophyll"
+    ],
+    "selected_as": [
+      "mesophyll"
+    ]
+  },
+  "Solyc07g063520.3": {
+    "logfoldchanges": 0.8726254105567932,
+    "pvals_adj": 1.2467456980487375e-08,
+    "description": "Organic solute transporter ostalpha protein (DUF300) (AHRD V3.3 *** O65422_ARATH)",
+    "n_cell_types": 3,
+    "cell_types": [
+      "Guard cell",
+      "Unknown",
+      "Vascular"
+    ],
+    "selected_as": [
+      "gaurd"
+    ]
+  },
+  "Solyc11g062020.2": {
+    "logfoldchanges": 1.7911415100097656,
+    "pvals_adj": 9.387555963605777e-05,
+    "description": "Zinc transporter ZTP29 (AHRD V3.3 *** A0A2G3B9X4_CAPCH)",
+    "n_cell_types": 2,
+    "cell_types": [
+      "Epidermal",
+      "Vascular"
+    ],
+    "selected_as": [
+      "vascular"
+    ]
+  },
+  "Solyc01g006150.3": {
+    "logfoldchanges": 0.7545715570449829,
+    "pvals_adj": 0.005551575990818061,
+    "description": "Cation efflux protein (AHRD V3.3 *** A0A200PY73_9MAGN)",
+    "n_cell_types": 2,
+    "cell_types": [
+      "Epidermal",
+      "Vascular"
+    ],
+    "selected_as": [
+      "epidermal"
+    ]
+  },
+  "Solyc10g051120.3": {
+    "logfoldchanges": 1.6214792728424072,
+    "pvals_adj": 0.01737716411856635,
+    "description": "Mitochondrial pyruvate carrier (AHRD V3.3 *** A0A2G2WMA1_CAPBA)",
+    "n_cell_types": 2,
+    "cell_types": [
+      "Epidermal",
+      "Vascular"
+    ],
+    "selected_as": [
+      "vascular"
+    ]
+  },
+  "Solyc01g106900.3": {
+    "logfoldchanges": 1.2897508144378662,
+    "pvals_adj": 0.028969524135276713,
+    "description": "Magnesium transporter MRS2-F (AHRD V3.3 *** A0A2G2V1P4_CAPBA)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Vascular"
+    ],
+    "selected_as": [
+      "vascular"
+    ]
+  },
+  "Solyc09g082890.2": {
+    "logfoldchanges": 2.456514596939087,
+    "pvals_adj": 1.8388748442930567e-05,
+    "description": "Calcium-transporting ATPase (AHRD V3.3 *-* A0A2G2Z807_CAPAN)",
+    "n_cell_types": 2,
+    "cell_types": [
+      "Epidermal",
+      "Guard cell"
+    ],
+    "selected_as": [
+      "gaurd"
+    ]
+  },
+  "Solyc09g075020.3": {
+    "logfoldchanges": 0.7357046604156494,
+    "pvals_adj": 1.2524730784520494e-95,
+    "description": "ABC transporter C family member 4 (AHRD V3.3 *** A0A2G2ZW52_CAPAN)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Epidermal"
+    ],
+    "selected_as": [
+      "epidermal"
+    ]
+  },
+  "Solyc05g009020.4": {
+    "logfoldchanges": 2.2896976470947266,
+    "pvals_adj": 2.125227857701756e-15,
+    "description": "Mitochondrial carrier protein (AHRD V3.3 *** A0A200Q134_9MAGN)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Epidermal"
+    ],
+    "selected_as": [
+      "epidermal"
+    ]
+  },
+  "Solyc09g065560.3": {
+    "logfoldchanges": 2.4318900108337402,
+    "pvals_adj": 1.2522526002551311e-05,
+    "description": "Sulfate transporter (AHRD V3.3 *** Q70BL1_BRAOL)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Epidermal"
+    ],
+    "selected_as": [
+      "epidermal"
+    ]
+  },
+  "Solyc01g105450.4": {
+    "logfoldchanges": 0.8647896647453308,
+    "pvals_adj": 4.463785845462729e-05,
+    "description": "ABC transporter G family member 11 (AHRD V3.3 *** A0A2G2VAJ3_CAPBA)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Epidermal"
+    ],
+    "selected_as": [
+      "epidermal"
+    ]
+  },
+  "Solyc05g051220.3": {
+    "logfoldchanges": 2.284893751144409,
+    "pvals_adj": 0.0026387967234257396,
+    "description": "Potassium channel GORK (AHRD V3.3 *** A0A1U8GYE0_CAPAN)",
+    "n_cell_types": 1,
+    "cell_types": [
+      "Epidermal"
+    ],
+    "selected_as": [
+      "epidermal"
+    ]
+  }
+}

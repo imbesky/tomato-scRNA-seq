@@ -1,0 +1,16 @@
+tomato_candidate,tomato_description,arabidopsis_id,arabidopsis_description,tree_distance,arabidopsis_id_clean,identity,evalue,length
+Solyc01g006150.3,Cation efflux protein (AHRD V3.3 *** A0A200PY73_9MAGN),NP_191365,Cation efflux family protein [Arabidopsis thaliana],0.424466209,NP_191365,69.171,0.0,386
+Solyc01g105450.4,ABC transporter G family member 11 (AHRD V3.3 *** A0A2G2VAJ3_CAPBA),NP_173226,white-brown complex-like protein [Arabidopsis thaliana],0.840515681,NP_173226,52.188,0.0,617
+Solyc01g106900.3,Magnesium transporter MRS2-F (AHRD V3.3 *** A0A2G2V1P4_CAPBA),NP_188598,magnesium transporter 4 [Arabidopsis thaliana],0.48923102799999996,NP_188598,64.659,0.0,498
+Solyc02g082450.3,Auxin efflux carrier (AHRD V3.3 *** A0A200PYL2_9MAGN),NP_201399,Auxin efflux carrier family protein [Arabidopsis thaliana],0.554918789,NP_201399,61.235,0.0,405
+Solyc02g092450.3,Calcium-transporting ATPase (AHRD V3.3 *** A0A2G2XH12_CAPBA),NP_195479,calcium ATPase 2 [Arabidopsis thaliana],0.21202088,NP_195479,82.22,0.0,1018
+Solyc05g006020.3,Nucleobase-ascorbate transporter 8 (AHRD V3.3 *** A0A1U8EN63_CAPAN),NP_176211,nucleobase-ascorbate transporter 7 [Arabidopsis thaliana],0.244817644,NP_176211,80.835,0.0,527
+Solyc05g006640.4,Phospholipid-transporting ATPase (AHRD V3.3 *** A0A1U8EVI0_CAPAN),NP_176191,aminophospholipid ATPase 3 [Arabidopsis thaliana],0.301097513,NP_176191,76.377,0.0,1198
+Solyc05g009020.4,Mitochondrial carrier protein (AHRD V3.3 *** A0A200Q134_9MAGN),NP_566102,NAD+ transporter 1 [Arabidopsis thaliana],0.5162925220000001,NP_566102,64.211,5.16e-127,285
+Solyc05g051220.3,Potassium channel GORK (AHRD V3.3 *** A0A1U8GYE0_CAPAN),NP_186934,STELAR K+ outward rectifier [Arabidopsis thaliana],0.406636597,NP_186934,71.658,0.0,808
+Solyc07g063520.3,Organic solute transporter ostalpha protein (DUF300) (AHRD V3.3 *** O65422_ARATH),NP_193888,organic solute transporter ostalpha protein (DUF300) [Arabidopsis thaliana],0.38426984,NP_193888,69.257,2.01e-152,296
+Solyc09g065560.3,Sulfate transporter (AHRD V3.3 *** Q70BL1_BRAOL),NP_001326166,sulfate transporter 3;1 [Arabidopsis thaliana],0.35187001,NP_001326166,75.349,0.0,645
+Solyc09g075020.3,ABC transporter C family member 4 (AHRD V3.3 *** A0A2G2ZW52_CAPAN),NP_191829,multidrug resistance-associated protein 10 [Arabidopsis thaliana],0.452200515,NP_191829,66.667,0.0,1515
+Solyc09g082890.2,Calcium-transporting ATPase (AHRD V3.3 *-* A0A2G2Z807_CAPAN),NP_188931,ATPase E1-E2 type family protein / haloacid dehalogenase-like hydrolase family protein [Arabidopsis thaliana],0.481571604,NP_188931,62.264,1.9899999999999998e-134,371
+Solyc10g051120.3,Mitochondrial pyruvate carrier (AHRD V3.3 *** A0A2G2WMA1_CAPBA),NP_197509,Uncharacterized protein family (UPF0041) [Arabidopsis thaliana],0.5502645660000001,NP_197509,70.455,9.640000000000001e-49,88
+Solyc11g062020.2,Zinc transporter ZTP29 (AHRD V3.3 *** A0A2G3B9X4_CAPCH),NP_566669,ZIP metal ion transporter family [Arabidopsis thaliana],0.16005962599999998,NP_566669,84.783,3.92e-172,276

@@ -1,0 +1,14 @@
+candidate,ortholog_description,foldseek_pdb_target,foldseek_pdb_desc,foldseek_eval
+Solyc01g105450.4,white-brown complex-like protein [Arabidopsis thaliana],8bht-assembly1_A,ABCG2 turnover-1 state with tariquidar bound,9.14e-36
+Solyc11g062020.2,ZIP metal ion transporter family [Arabidopsis thaliana],8czj-assembly1_B,A bacteria Zrt/Irt-like protein in the apo state,3.43e-8
+Solyc09g082890.2,ATPase E1-E2 type family protein / haloacid dehalogenase-like hydrolase family protein [Arabidopsis thaliana],6a69-assembly1_A,Cryo-EM structure of a P-type ATPase,1.61e-18
+Solyc10g051120.3,Uncharacterized protein family (UPF0041) [Arabidopsis thaliana],4rng-assembly4_C-2,Crystal structure of a bacterial homologue of SWEET transporters,5.83e-1
+Solyc01g006150.3,Cation efflux family protein [Arabidopsis thaliana],5vrf-assembly1_A,CryoEM Structure of the Zinc Transporter YiiP from helical crystals,9.84e-13
+Solyc05g009020.4,NAD+ transporter 1 [Arabidopsis thaliana],1okc-assembly1_A,structure of mitochondrial ADP/ATP carrier in complex with carboxyatractyloside,4.62e-10
+Solyc01g106900.3,magnesium transporter 4 [Arabidopsis thaliana],8ip4-assembly1_A,Cryo-EM structure of hMRS-highEDTA,4.74e-14
+Solyc09g065560.3,sulfate transporter 3;1 [Arabidopsis thaliana],7v75-assembly1_A,Thermostabilized human prestin in complex with salicylate,1.28e-42
+Solyc02g082450.3,Auxin efflux carrier family protein [Arabidopsis thaliana],7qpc-assembly1_A,Inward-facing NPA bound form of auxin transporter PIN8,1.32e-6
+Solyc07g063520.3,organic solute transporter ostalpha protein (DUF300) [Arabidopsis thaliana],7xbw-assembly1_R,Cryo-EM structure of the human chemokine receptor CX3CR1 in complex with Gi1,1.59e-2
+Solyc05g051220.3,STELAR K+ outward rectifier [Arabidopsis thaliana],8jec-assembly1_D,plant potassium channel SKOR mutant - L271P/D312N,1.47e-72
+Solyc05g006020.3,nucleobase-ascorbate transporter 7 [Arabidopsis thaliana],7ytw-assembly1_A,Structural basis of vitamin C recognition and transport by mammalian SVCT1 transporter,1.67e-30
+Solyc02g092450.3,calcium ATPase 2 [Arabidopsis thaliana],6a69-assembly1_A,Cryo-EM structure of a P-type ATPase,7.61e-61
