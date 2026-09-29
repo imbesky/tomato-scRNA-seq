@@ -1,0 +1,21 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# External Raw & Reference Data
+dataset/raw/
+dataset/reference/
+dataset/processed/*.h5ad
+dataset/blast/araport_db*
+dataset/blast/*.faa
+
+# Large Result Files
+result/alphafold/
+result/foldseek/
+
+# System Files
+.DS_Store
+Thumbs.db
