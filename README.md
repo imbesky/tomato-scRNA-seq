@@ -38,20 +38,20 @@ Source data: Yue et al. 2024, "Single-cell transcriptome landscape elucidates th
 
 Loads raw CellRanger output, filters low-quality cells (MAD-based outlier detection on total counts/gene counts, percentile cutoff on mitochondrial/chloroplast content), removes doublets (Scrublet), and normalizes expression.
 
-**Note**: ITAG4.0 GO annotation flags very few mitochondrial (8) and chloroplast (49) genes, likely due to incomplete annotation in this non-model species — the resulting QC metric has limited sensitivity compared to total-count-based filtering.
-**Note**: Scrublet was run on all samples combined rather than per sample; doublet simulation assumes a single homogeneous population, so per-sample execution would be more rigorous.
+- **Note**: ITAG4.0 GO annotation flags very few mitochondrial (8) and chloroplast (49) genes, likely due to incomplete annotation in this non-model species — the resulting QC metric has limited sensitivity compared to total-count-based filtering.
+- **Note**: Scrublet was run on all samples combined rather than per sample; doublet simulation assumes a single homogeneous population, so per-sample execution would be more rigorous.
 
 ### 2. `02_pca_clustering_celltype_deg.ipynb` — Clustering, Annotation, and DEG
 
 Clusters the healthy sample (PCA → Leiden), annotates clusters with cell types using marker genes from the source publication's supplementary table, then maps the infected sample onto the same space (`sc.tl.ingest`) and tests differential expression (V vs H)
 within each cell type.
 
-**Note**: `highly_variable_genes` was run with `batch_key="sample_no"` after the data had already been subset to a single sample, so the batch correction had no effect in this run.
-**Note**: `n_neighbors` for the KNN graph reused the PCA elbow component count (13) rather than being set independently via `n_pcs`; the two parameters serve different purposes and were conflated here.
-**Note**: The Vascular cell type is defined almost entirely by a single marker gene (PP2A1), since 3 of 4 reference markers (APL, ACL5, SHR) had no matching tomato gene ID.
-**Note**: Ingest was chosen as a computationally lightweight baseline mapping approach for this pilot study.
-**Note**: DEG results for Guard cell (121 V cells) and Unknown (55 V cells) have reduced statistical power due to small sample size.
-**Note**: Final candidate selection (15 genes) was manual: genes annotated as putative/"-like" were excluded, transporters with clearly resolved function were prioritized by logFC, and ABC transporter family members were retained given their established role in plant defense responses.
+- **Note**: `highly_variable_genes` was run with `batch_key="sample_no"` after the data had already been subset to a single sample, so the batch correction had no effect in this run.
+- **Note**: `n_neighbors` for the KNN graph reused the PCA elbow component count (13) rather than being set independently via `n_pcs`; the two parameters serve different purposes and were conflated here.
+- **Note**: The Vascular cell type is defined almost entirely by a single marker gene (PP2A1), since 3 of 4 reference markers (APL, ACL5, SHR) had no matching tomato gene ID.
+- **Note**: Ingest was chosen as a computationally lightweight baseline mapping approach for this pilot study.
+- **Note**: DEG results for Guard cell (121 V cells) and Unknown (55 V cells) have reduced statistical power due to small sample size.
+- **Note**: Final candidate selection (15 genes) was manual: genes annotated as putative/"-like" were excluded, transporters with clearly resolved function were prioritized by logFC, and ABC transporter family members were retained given their established role in plant defense responses.
 
 ### 3. `03_sequence_extraction.ipynb` — Candidate Sequence Retrieval
 
@@ -61,9 +61,8 @@ Maps each candidate gene ID to its ITAG4.0 protein sequence and writes a FASTA f
 
 Searches candidates against the Arabidopsis proteome (BLAST), builds a multiple sequence alignment and phylogenetic tree per candidate from the top 5 hits, and determines the single closest Arabidopsis ortholog by tree distance.
 
-**Note**: `evalue=1e-5` and `max_target_seqs=5` (see `scripts/03_run_blastp.sh`) were
-practical choices — permissive enough to avoid missing true homologs, with the final ortholog resolved more precisely afterward via tree distance rather than raw BLAST score alone. These values were not derived from a parameter sweep.
-**Note**: The Arabidopsis description attached to each candidate in `ortholog_summary.csv` is the single closest ortholog by tree distance, not simply the top BLAST hit. This value is used directly as the sequence-based functional prediction in notebook 05.
+- **Note**: `evalue=1e-5` and `max_target_seqs=5` (see `scripts/03_run_blastp.sh`) were practical choices — permissive enough to avoid missing true homologs, with the final ortholog resolved more precisely afterward via tree distance rather than raw BLAST score alone. These values were not derived from a parameter sweep.
+- **Note**: The Arabidopsis description attached to each candidate in `ortholog_summary.csv` is the single closest ortholog by tree distance, not simply the top BLAST hit. This value is used directly as the sequence-based functional prediction in notebook 05.
 
 ### 5. `05_analysis.ipynb` — Structural Cross-Validation
 
