@@ -71,7 +71,7 @@ Among the 13 candidates with predicted structures, sequence-based functional pre
 
 | Category / Concordance Level | Count | Summary & Interpretation |
 | :--- | :---: | :--- |
-| **Sequence–Structure Agreement** | **9** | Sequence ortholog & top 3D structural match (e.g., Cation efflux ↔ Zinc Transporter YiiP) |
+| **Sequence–Structure Agreement** | **9** | Sequence-based functional prediction & top 3D structural match (e.g., Cation efflux ↔ Zinc Transporter YiiP) |
 | **Broad Family Agreement** | **2** | Broader transporter family level agreement (Nucleotide / Anion transporters) |
 | **Structure-Assisted Hypothesis** | **1** | Sequence homology was uncharacterized; 3D structural alignment suggested a plausible transporter fold hypothesis |
 | **Unresolved Structural Match** | **1** | Weak Foldseek alignment score (treated as unresolved) |
@@ -85,10 +85,10 @@ Among the 13 candidates with predicted structures, sequence-based functional pre
 
 ### 1. Biological / QC Bottlenecks
 - **Incomplete organelle gene annotation**: mt/chloroplast QC relied on ITAG4.0 GO terms, which under-annotate these gene sets in tomato.
- - *Next step*: use a curated mitochondrial/chloroplast gene ID list if available.
+    - *Next step*: use a curated mitochondrial/chloroplast gene ID list if available.
 - **Doublet detection across pooled samples**: Scrublet's synthetic-doublet approach assumes a homogeneous population; running it per sample/replicate would better match this assumption.
 - **Single-marker cell type definition (Vascular)**: relying on one matched marker gene is a weaker basis for cell-type identity than a multi-marker consensus.
- - *Next step*: recover missing marker orthologs (APL, ACL5, SHR) via BLAST rather than description-keyword matching.
+    - *Next step*: recover missing marker orthologs (APL, ACL5, SHR) via BLAST rather than description-keyword matching.
 - **Low-power DEG groups**: Guard cell and Unknown cell-type DEG results should be interpreted cautiously given small sample sizes (121 and 55 V cells respectively).
 
 ### 2. Workflow / Parameter Refinements
